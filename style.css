@@ -20,3 +20,15 @@ nav {
   padding: 5px;
   margin: 100px;
 }
+
+.lado-esquerdo {
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+}
+
+.lado-direito {
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+}
