@@ -6,3 +6,13 @@ nav {
   position: fixed;
   top: 0;
 }
+
+#minha_foto {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid #874356;
+  padding: 5px;
+  margin: 100px;
+}
