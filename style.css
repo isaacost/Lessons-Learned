@@ -2,13 +2,35 @@ body {
   background: rgb(253, 251, 251);
   font-size: 20px;
   line-height: 30px;
-  font-family: Ubuntu;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: palevioletred;
 }
 
 nav {
   position: fixed;
   top: 0;
-  color: #874356;
+}
+
+header {
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+table {
+  border: palevioletred;
 }
 
 #minha_foto {
@@ -16,19 +38,35 @@ nav {
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  border: 1px solid #874356;
+  border: 1px solid palevioletred;
   padding: 5px;
-  margin: 100px;
+  margin: 70px;
+}
+
+#licoes_aprendidas {
+  width: 200px;
+  display: inline-block;
+  border: 3px dotted palevioletred;
+}
+
+#licoes_a_aprender {
+  width: 200px;
+  display: inline-block;
+  border: 3px dotted palevioletred;
+}
+
+#rodape {
+  text-align: center;
 }
 
 .lado-esquerdo {
-    width: 500px;
-    display: inline-block;
-    text-align: left;
+  width: 700px;
+  display: inline-block;
+  text-align: left;
 }
 
 .lado-direito {
-    width: 200px;
-    display: inline-block;
-    text-align: right;
+  width: 200px;
+  display: inline-block;
+  text-align: right;
 }
